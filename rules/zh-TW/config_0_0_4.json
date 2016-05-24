@@ -158,5 +158,15 @@
         "condition": "is_displayed",
         "condition_selector": "div#ArticleBanner",
         "retry_second": "60"
+    },
+    {
+        "desc": "Top-Ad-on-Page of http://*.appledaily.com.tw/",
+        "url": "*.appledaily.com.tw",
+        "url_type": "String ",
+        "action_type": "remove",
+        "action_selector": "div#FixBanner1",
+        "condition": "is_displayed",
+        "condition_selector": "div#FixBanner1",
+        "retry_second": "60"
     }
 ]
