@@ -134,9 +134,9 @@
         "url": "*.pixnet.net",
         "url_type": "String ",
         "action_type": "click",
-        "action_selector": "div#read-all a",
+        "action_selector": "#read-all span",
         "condition": "is_displayed",
-        "condition_selector": "div#read-all",
+        "condition_selector": "#read-all span",
         "retry_second": "60"
     },
     {
@@ -154,7 +154,7 @@
         "url": "*.appledaily.com.tw",
         "url_type": "String ",
         "action_type": "click",
-        "action_selector": ["div.iframePanelContainerDiv iframe", "div#close_button a"],
+        "action_selector": ["div.iframePanelContainerDiv iframe", "div#close_button a close_button_img"],
         "condition": "has_obj",
         "condition_selector": "div.iframePanelContainerDiv iframe",
         "retry_second": "60"
