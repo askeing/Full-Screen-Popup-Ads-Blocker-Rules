@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Performance Timing</title>
+    <script type="application/javascript">
+        function modifyMessage() {
+            var msg = document.getElementById("message");
+            message.innerHTML = "Clicked";
+        }
+
+        window.onload = function () {
+            var el = document.getElementById("mydiv");
+            el.addEventListener("click", modifyMessage, false);
+        }
+    </script>
+</head>
+<body>
+    <div id="mydiv">Click It!</div>
+    <div>
+        <p id="message">Hello World!</p>
+    </div>
+</body>
+</html>
