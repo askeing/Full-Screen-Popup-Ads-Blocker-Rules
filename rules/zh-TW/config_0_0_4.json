@@ -103,10 +103,10 @@
         "desc": "Full-Screen-Ad of http://*.pixnet.net/",
         "url": "*.pixnet.net",
         "url_type": "String ",
-        "action_type": "click",
-        "action_selector": "div.pop-ad-cover a.close",
+        "action_type": "remove",
+        "action_selector": "div.pop-ad-cover",
         "condition": "is_displayed",
-        "condition_selector": "div.pop-ad-cover a.close",
+        "condition_selector": "div.pop-ad-cover",
         "retry_second": "60"
     },
     {
@@ -117,6 +117,16 @@
         "action_selector": "div.header-ad",
         "condition": "is_displayed",
         "condition_selector": "div.header-ad",
+        "retry_second": "60"
+    },
+    {
+        "desc": "Top-Ad-on-Page in article-list of http://*.pixnet.net/",
+        "url": "*.pixnet.net",
+        "url_type": "String ",
+        "action_type": "remove",
+        "action_selector": ".article-list li.ad, .article-list li.list-ad",
+        "condition": "is_displayed",
+        "condition_selector": ".article-list li.ad, .article-list li.list-ad",
         "retry_second": "60"
     },
     {
