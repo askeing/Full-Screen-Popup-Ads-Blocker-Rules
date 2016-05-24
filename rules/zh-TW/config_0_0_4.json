@@ -178,5 +178,25 @@
         "condition": "is_displayed",
         "condition_selector": "div#FixBanner1",
         "retry_second": "60"
+    },
+    {
+        "desc": "Full-screen Ad of http://*.ettoday.net/",
+        "url": "*.ettoday.net",
+        "url_type": "String ",
+        "action_type": "remove",
+        "action_selector": "div.adM01",
+        "condition": "is_displayed",
+        "condition_selector": "div.adM01",
+        "retry_second": "60"
+    },
+    {
+        "desc": "Top-Ad-on-Page of http://*.ettoday.net/",
+        "url": "*.ettoday.net",
+        "url_type": "String ",
+        "action_type": "remove",
+        "action_selector": "div[class^=ad_]",
+        "condition": "is_displayed",
+        "condition_selector": "div[class^=ad_]",
+        "retry_second": "60"
     }
 ]
