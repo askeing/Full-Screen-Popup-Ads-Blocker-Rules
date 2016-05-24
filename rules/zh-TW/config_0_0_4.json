@@ -1,12 +1,12 @@
 [
     {
         "desc": "Full-Screen-Ad of http(s)://*.ltn.com.tw/",
-        "url": "http[s]{0,1}:\\/\\/.*\\.ltn\\.com\\.tw\\/.*",
-        "url_type": "RegExp",
+        "url": "*.ltn.com.tw",
+        "url_type": "string",
         "action_type": "click",
         "action_selector": "div#closeID",
-        "condition": "",
-        "condition_selector": "",
+        "condition": "is_displayed",
+        "condition_selector": "div#closeID",
         "retry_second": "60"
     },
     {
@@ -20,19 +20,19 @@
         "retry_second": "60"
     },
     {
-        "desc": "Top-Ad-on-Page of http(s)://m.ltn.com.tw/",
-        "url": "http[s]{0,1}:\\/\\/.*\\.ltn\\.com\\.tw\\/.*",
-        "url_type": "RegExp",
+        "desc": "Top-Ad-on-Page of http(s)://*.ltn.com.tw/",
+        "url": "*.ltn.com.tw",
+        "url_type": "string",
         "action_type": "hide",
         "action_selector": "div.ad",
-        "condition": "",
-        "condition_selector": "",
+        "condition": "is_displayed",
+        "condition_selector": "div.ad",
         "retry_second": "60"
     },
     {
         "desc": "FB-btn of http(s)://*.ltn.com.tw/",
-        "url": "http[s]{0,1}:\\/\\/.*\\.ltn\\.com\\.tw\\/.*",
-        "url_type": "RegExp",
+        "url": "*.ltn.com.tw",
+        "url_type": "string",
         "action_type": "click",
         "action_selector": "div.fb_btn",
         "condition": "is_displayed",
