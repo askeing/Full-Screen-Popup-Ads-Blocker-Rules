@@ -208,5 +208,15 @@
         "condition": "is_displayed",
         "condition_selector": "div.reveal-modal",
         "retry_second": "60"
+    },
+    {
+        "desc": "Full-screen Ad of http://techcrunch.com/",
+        "url": "*.techcrunch.com",
+        "url_type": "String",
+        "action_type": "remove",
+        "action_selector": "div.lightbox",
+        "condition": "is_displayed",
+        "condition_selector": "div.lightbox",
+        "retry_second": "60"
     }
 ]
