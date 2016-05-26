@@ -220,6 +220,26 @@
         "retry_second": "60"
     },
     {
+        "desc": "Top Ad of http://*.businessweekly.com.tw",
+        "url": "*.businessweekly.com.tw",
+        "url_type": "String",
+        "action_type": "remove",
+        "action_selector": "div.topbannerAD",
+        "condition": "is_displayed",
+        "condition_selector": "div.topbannerAD",
+        "retry_second": "60"
+    },
+    {
+        "desc": "Ad in article of http://*.businessweekly.com.tw",
+        "url": "*.businessweekly.com.tw",
+        "url_type": "String",
+        "action_type": "remove",
+        "action_selector": "div.div-mobile-inread",
+        "condition": "is_displayed",
+        "condition_selector": "div.div-mobile-inread",
+        "retry_second": "60"
+    },
+    {
         "desc": "Full-screen Ad of http://techcrunch.com/",
         "url": "*.techcrunch.com",
         "url_type": "String",
@@ -227,6 +247,46 @@
         "action_selector": "div.lightbox",
         "condition": "is_displayed",
         "condition_selector": "div.lightbox",
+        "retry_second": "60"
+    },
+    {
+        "desc": "In page Ad of http://techcrunch.com/",
+        "url": "*.techcrunch.com",
+        "url_type": "String",
+        "action_type": "remove",
+        "action_selector": "div.mobile-ads-center",
+        "condition": "is_displayed",
+        "condition_selector": "div.mobile-ads-center",
+        "retry_second": "60"
+    },
+    {
+        "desc": "In page Ad of http://technews.tw/",
+        "url": "*.technews.tw",
+        "url_type": "String",
+        "action_type": "remove",
+        "action_selector": "div.blockUI",
+        "condition": "is_displayed",
+        "condition_selector": "div.blockUI",
+        "retry_second": "60"
+    },
+    {
+        "desc": "In page Ad of http://technews.tw/",
+        "url": "*.technews.tw",
+        "url_type": "String",
+        "action_type": "remove",
+        "action_selector": ".adsbygoogle",
+        "condition": "is_displayed",
+        "condition_selector": ".adsbygoogle",
+        "retry_second": "60"
+    },
+    {
+        "desc": "In page Ad of http://technews.tw/",
+        "url": "*.technews.tw",
+        "url_type": "String",
+        "action_type": "remove",
+        "action_selector": "div.inside_AD",
+        "condition": "is_displayed",
+        "condition_selector": "div.inside_AD",
         "retry_second": "60"
     }
 ]
