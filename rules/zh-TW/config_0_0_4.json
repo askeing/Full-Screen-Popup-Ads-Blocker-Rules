@@ -210,6 +210,16 @@
         "retry_second": "60"
     },
     {
+        "desc": "Full-screen Ad of http://*.businessweekly.com.tw",
+        "url": "*.businessweekly.com.tw",
+        "url_type": "String",
+        "action_type": "remove",
+        "action_selector": "div#AdSameFullPanel",
+        "condition": "is_displayed",
+        "condition_selector": "div#AdSameFullPanel",
+        "retry_second": "60"
+    },
+    {
         "desc": "Full-screen Ad of http://techcrunch.com/",
         "url": "*.techcrunch.com",
         "url_type": "String",
