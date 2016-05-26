@@ -288,5 +288,25 @@
         "condition": "is_displayed",
         "condition_selector": "div.inside_AD",
         "retry_second": "60"
+    },
+    {
+        "desc": "Full-screen Ad of http://*.wetalk.tw/",
+        "url": "*.wetalk.tw",
+        "url_type": "String",
+        "action_type": "click",
+        "action_selector": "div.modal-dialog span",
+        "condition": "is_displayed",
+        "condition_selector": "div.modal-dialog",
+        "retry_second": "60"
+    },
+    {
+        "desc": "In page Ad of http://*.wetalk.tw/",
+        "url": "*.wetalk.tw",
+        "url_type": "String",
+        "action_type": "remove",
+        "action_selector": "div.adblock",
+        "condition": "is_displayed",
+        "condition_selector": "div.adblock",
+        "retry_second": "60"
     }
 ]
